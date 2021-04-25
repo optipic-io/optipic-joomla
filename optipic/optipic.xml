@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system">
+    <name>PLG_SYSTEM_OPTIPIC</name>
+    <author>OptiPic.io</author>
+    <creationDate>2020-02-05</creationDate>
+    <!--<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>-->
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>info@optipic.io</authorEmail>
+    <authorUrl>https://optipic.io/cdn/</authorUrl>
+    <version>1.14.0</version>
+    <description>PLG_SYSTEM_OPTIPIC_DESC</description>
+    <files>
+        <filename plugin="optipic">optipic.php</filename>
+        <filename plugin="optipic">ImgUrlConverter.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_optipic.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_optipic.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_system_optipic.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_system_optipic.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="autoreplace_active" type="checkbox"
+                       value="1"
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_AUTOREPLACE_ACTIVE_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_AUTOREPLACE_ACTIVE_LABEL"
+                />
+
+                <field name="site_id" type="text"
+                       default=""
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_SITE_ID_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_SITE_ID_LABEL"
+                />
+
+                <field name="domains" type="textarea"
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_DOMAINS_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_DOMAINS_LABEL"
+                />
+
+                <field name="exclusions_url" type="textarea"
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_EXCLUSIONS_URL_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_EXCLUSIONS_URL_LABEL"
+                />
+
+                <field name="whitelist_img_urls" type="textarea"
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_WHITELIST_IMG_URLS_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_WHITELIST_IMG_URLS_LABEL"
+                />
+
+                <field name="srcset_attrs" type="textarea"
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_SRCSET_ATTRS_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_SRCSET_ATTRS_LABEL"
+                />
+                <field name="optipic-plugin-page-detecor-mark" type="hidden" default="" />
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" name="OptiPic Checker Update Plugin">https://optipic.io/plugins/joomla/manifest.xml</server>
+    </updateservers>
+</extension>
