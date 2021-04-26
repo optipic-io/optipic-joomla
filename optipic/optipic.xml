@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later</license>
     <authorEmail>info@optipic.io</authorEmail>
     <authorUrl>https://optipic.io/cdn/</authorUrl>
-    <version>1.14.0</version>
+    <version>1.14.1</version>
     <description>PLG_SYSTEM_OPTIPIC_DESC</description>
     <files>
         <filename plugin="optipic">optipic.php</filename>
