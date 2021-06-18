@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later</license>
     <authorEmail>info@optipic.io</authorEmail>
     <authorUrl>https://optipic.io/cdn/</authorUrl>
-    <version>1.15.0</version>
+    <version>1.18.0</version>
     <description>PLG_SYSTEM_OPTIPIC_DESC</description>
     <files>
         <filename plugin="optipic">optipic.php</filename>
@@ -53,6 +53,13 @@
                        description="PLG_SYSTEM_OPTIPIC_FIELD_SRCSET_ATTRS_DESC"
                        label="PLG_SYSTEM_OPTIPIC_FIELD_SRCSET_ATTRS_LABEL"
                 />
+                
+                <field name="cdn_domain" type="text"
+                       default=""
+                       description="PLG_SYSTEM_OPTIPIC_FIELD_CDN_DOMAIN_DESC"
+                       label="PLG_SYSTEM_OPTIPIC_FIELD_CDN_DOMAIN_LABEL"
+                />
+                
                 <field name="optipic-plugin-page-detecor-mark" type="hidden" default="" />
             </fieldset>
         </fields>

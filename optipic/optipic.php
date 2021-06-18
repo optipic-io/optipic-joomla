@@ -50,7 +50,7 @@ class PlgSystemOptipic extends JPlugin
                 $uri = JUri::getInstance(); 
                 $host = $uri->getHost();
 
-                $js = '<script src="https://optipic.io/api/cp/stat?domain='.$host.'&sid='.$sid.'&cms=joomla&stype=cdn&append_to=%23general%3Afirst&version=1.15.0"></script>';
+                $js = '<script src="https://optipic.io/api/cp/stat?domain='.$host.'&sid='.$sid.'&cms=joomla&stype=cdn&append_to=%23general%3Afirst&version=1.18.0"></script>';
                 
                 $bodyHtml = str_replace ("</body>", $js." </body>", $bodyHtml);
                 $app->setBody($bodyHtml);
@@ -69,6 +69,7 @@ class PlgSystemOptipic extends JPlugin
         $exclusionsUrl = $this->params->get('exclusions_url', '')!=''?explode("\n", $this->params->get('exclusions_url', '')):array();
         $whitelistImgUrls = $this->params->get('whitelist_img_urls', '')!=''?explode("\n", $this->params->get('whitelist_img_urls', '')):array();
         $srcsetAttrs = $this->params->get('srcset_attrs', '')!=''?explode("\n", $this->params->get('srcset_attrs', '')):array();
+        $cdnDomain = $this->params->get('cdn_domain', '');
 
         return array(
             'autoreplace_active' => $autoreplaceActive,
@@ -77,6 +78,7 @@ class PlgSystemOptipic extends JPlugin
             'exclusions_url' => $exclusionsUrl, // list of URL exclusions - where is URL should not converted
             'whitelist_img_urls' => $whitelistImgUrls, // whitelist of images URL - what should to be converted (parts or full urls start from '/')
             'srcset_attrs' => $srcsetAttrs, // tag's srcset attributes // @see https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+            'cdn_domain' => $cdnDomain,
         );
     }
 }
