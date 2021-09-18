@@ -50,7 +50,7 @@ class PlgSystemOptipic extends JPlugin
                 $uri = JUri::getInstance(); 
                 $host = $uri->getHost();
 
-                $js = '<script src="https://optipic.io/api/cp/stat?domain='.$host.'&sid='.$sid.'&cms=joomla&stype=cdn&append_to=%23general%3Afirst&version=1.18.0"></script>';
+                $js = '<script src="https://optipic.io/api/cp/stat?domain='.$host.'&sid='.$sid.'&cms=joomla&stype=cdn&append_to=%23general%3Afirst&version=1.22.0"></script>';
                 
                 $bodyHtml = str_replace ("</body>", $js." </body>", $bodyHtml);
                 $app->setBody($bodyHtml);
