@@ -4,8 +4,7 @@
 
  **[[Download plugin]](https://github.com/optipic-io/optipic-joomla/releases/download/1.25.1/optipic-1.25.1.zip)**
 
-## How to convert to WebP all the images on the Joomla
-> CDN OptiPic — simple solution to the problem "Serve images in next-gen formats"
+## How to convert to WebP all the images on the Joomla> CDN OptiPic — simple solution to the problem "Serve images in next-gen formats"
 
 - [181 reviews](https://optipic.io/en/cdn/reviews/) ⭐⭐⭐⭐⭐
 - According to recommendations Google PageSpeed Insights
@@ -29,18 +28,18 @@ If the optimized version is not yet ready at the time of the image request, the 
 
 [![Download](https://optipic.io/images/download-button-w200.png)](https://github.com/optipic-io/optipic-joomla/releases/download/1.25.1/optipic-1.25.1.zip)
 
-## Video instruction for configuring the module Joomla
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qsviPOyBUjU/0.jpg)](https://www.youtube.com/watch?v=qsviPOyBUjU)
+## Video instruction for configuring the module Joomla[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qsviPOyBUjU/0.jpg)](https://www.youtube.com/watch?v=qsviPOyBUjU)
 
-## 5 easy steps to connect WebP to Joomla
-### Step #1: Download plugin Joomla WebP
+## 5 easy steps to connect WebP to Joomla### Step #1: Download plugin Joomla WebP
 Download and install the official CDN OptiPic plugin for Joomla on your site.
 
 ### Step #2: Sign up for OptiPic CDN
 Register in your OptiPic CDN account and add a new site to your CDN control panel.
+![Step 1](https://optipic.io/img/cdn/install-instruction/en/step-2.png)
 
 ### Step #3: Copy site ID
 Copy the ID of the created website to the clipboard (Ctrl + C)
+![Step 1](https://optipic.io/img/cdn/install-instruction/en/step-3.png)
 
 ### Step #4: Paste the site ID into the plugin Joomla WebP
 Go to the settings page of the previously installed plugin on your site.
