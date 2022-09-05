@@ -1,10 +1,15 @@
 # WebP convert images Joomla in 2 clicks - OptiPic CDN ready plugin
 
-> Fully automated process for converting all png and jpeg images to WebP format to the requirements of Google Pagespeed Insights. Solves the problem 'Serve images in next-gen formats'. Easy connection to Joomla.
+> Fully automated process for converting all png and jpeg images to WebP format to the requirements of Google Pagespeed Insights.  
+> Solves the problem "Serve images in next-gen formats".  
+> Easy connection to Joomla. 
+
+[https://optipic.io/en/webp/joomla/](https://optipic.io/en/webp/joomla/)
 
 [![Download](https://optipic.io/images/download-button.png)](https://github.com/optipic-io/optipic-joomla/releases/download/1.25.1/optipic-1.25.1.zip)
 
-## How to convert to WebP all the images on the Joomla> CDN OptiPic — simple solution to the problem "Serve images in next-gen formats"
+## How to convert to WebP all the images on the Joomla 
+> CDN OptiPic — simple solution to the problem "Serve images in next-gen formats"
 
 - [181 reviews](https://optipic.io/en/cdn/reviews/) ⭐⭐⭐⭐⭐
 - According to recommendations Google PageSpeed Insights
@@ -29,9 +34,10 @@ If the optimized version is not yet ready at the time of the image request, the 
 [![Download](https://optipic.io/images/download-button.png)](https://github.com/optipic-io/optipic-joomla/releases/download/1.25.1/optipic-1.25.1.zip)
 
 ## Video instruction for configuring the module Joomla
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qsviPOyBUjU/0.jpg)](https://www.youtube.com/watch?v=qsviPOyBUjU)
+[![Video instruction for configuring the module Joomla](https://img.youtube.com/vi/qsviPOyBUjU/0.jpg)](https://www.youtube.com/watch?v=qsviPOyBUjU)
 
 ## 5 easy steps to connect WebP to Joomla
+
 ### Step #1: Download plugin Joomla WebP
 Download and install the official CDN OptiPic plugin for Joomla on your site.
 
@@ -69,7 +75,9 @@ Change other plugin settings if necessary
   ```
 
 * **Site pages that do not include auto-replace**
-Each on a new line and must start with a slash (/)
+  ```
+  Each on a new line and must start with a slash (/)
+  ```
 
 * **Replace only URLs of images starting with a mask**
   ```
