@@ -4,6 +4,23 @@
 > Solves the problem "Serve images in next-gen formats".  
 > Easy connection to Joomla. 
 
+<sup>|</sup>
+<sup>[English](https://optipic.io/en/webp/joomla/) | </sup>
+<sup>[Español](https://optipic.io/es/webp/joomla/) | </sup>
+<sup>[Deutsch](https://optipic.io/de/webp/joomla/) | </sup>
+<sup>[Türk](https://optipic.io/tr/webp/joomla/) | </sup>
+<sup>[Français](https://optipic.io/fr/webp/joomla/) | </sup>
+<sup>[Italiano](https://optipic.io/it/webp/joomla/) | </sup>
+<sup>[Português](https://optipic.io/pt/webp/joomla/) | </sup>
+<sup>[Polski](https://optipic.io/pl/webp/joomla/) | </sup>
+<sup>[Čeština](https://optipic.io/cz/webp/joomla/) | </sup>
+<sup>[Русский](https://optipic.io/ru/webp/joomla/) | </sup>
+<sup>[Беларуская](https://optipic.io/by/webp/joomla/) | </sup>
+<sup>[中国](https://optipic.io/cn/webp/joomla/) | </sup>
+<sup>[日本](https://optipic.io/jp/webp/joomla/) | </sup>
+<sup>[বেঙ্গল](https://optipic.io/bn/webp/joomla/) | </sup>
+<sup>[한국인](https://optipic.io/ko/webp/joomla/) | </sup>
+
 [https://optipic.io/en/webp/joomla/](https://optipic.io/en/webp/joomla/)
 
 [![Download](https://optipic.io/images/download-button.png)](https://github.com/optipic-io/optipic-joomla/releases/download/1.25.1/optipic-1.25.1.zip)
